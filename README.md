@@ -18,6 +18,7 @@ imagehash or use my phash only
 ```
 image_infobase.json
 {"info_base": [[hash_index, image_path], ...]}
+信息库大小会影响读写时的速度，基本不影响查找时间。
 ```
 * 本地测试结果展示
 ```
@@ -34,6 +35,8 @@ image_infobase.json
 重复图查找平均耗时: 0.4957 ms
 写/更新的图片信息库耗时： 1.3470 s
 ```
+* 觉得还行，点个star呗
+Copyright hengtao tao. All Rights Reserved.
 
 
 
