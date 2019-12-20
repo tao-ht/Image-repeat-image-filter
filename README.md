@@ -2,9 +2,9 @@
 millisecond repeat image filter with Photo gallery 毫秒级图片库去重， 去重效率与图片库数量无关，0.1~10ms
 
 * 实现算法思路
->1.多线程提取图片的hash值；
->2.hash转化成32~64位长索引值, 在信息库中顺序查找索引，相同索引为重复图；
->3.如无重复，按索引顺序插入信息库；
+1.多线程提取图片的hash值；
+2.hash转化成32~64位长索引值, 在信息库中顺序查找索引，相同索引为重复图；
+3.如无重复，按索引顺序插入信息库；
 
 * requirement:
 ```
@@ -18,6 +18,7 @@ imagehash or use my phash only
 image_infobase.json
 {"info_base": [[hash_index, image_path], ...]}
 ```
+* 本地测试结果展示
 ##
 ```
 读取图片信息库数据字典耗时: 0.6860 s
