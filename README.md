@@ -32,7 +32,7 @@ image_infobase.json
 1000-69_49924978.jpg is similar to E:/2019/image_rm-dui/train0/69_49924978.jpg !
 1001-69_49926153.jpg is similar to E:/2019/image_rm-dui/train0/69_49924978.jpg !
 1003-69_49614853.jpg is similar to E:/2019/image_rm-dui/train0/69_49593728.jpg !
-重复图查找平均耗时: 0.4957 ms
+重复图查找平均耗时: 0.2556 ms
 写/更新的图片信息库耗时： 1.3470 s
 ```
 * 觉得还行，点个star呗
