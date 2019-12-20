@@ -5,7 +5,7 @@ millisecond repeat image filter with Photo gallery 毫秒级图片库去重， �
 ```
 1.多线程提取图片的hash值；
 2.hash转化成32~64位长索引值, 在信息库中顺序查找索引，相同索引为重复图；
-3.如无重复，按索引顺序插入信息库；
+3.如无重复，将提取图片信息按索引顺序插入信息库；
 ```
 * requirement:
 ```
